@@ -71,6 +71,13 @@ function loadStyle(getStyleDirectory) {
 }
 
 
+// callback function to confirm theme JS load
+function confirmTheme(theme) {
+    console.log(`${theme} theme loaded`);
+    document.title += ` - ${theme}`;
+}
+
+
 // load a new JS file from a given path and run the function "initialize" from it
 async function loadJS(fromPath) {
     let newJS = await import(fromPath);
