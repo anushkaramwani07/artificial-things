@@ -6,4 +6,4 @@
 
 <p><strong>Description:</strong></p>
 
-<p>Changed it to Courier font, moved the header/main/footer tags into an article tag and used CSS grid to format into two columns.</p>
+<p>Used CSS Grid</p>
